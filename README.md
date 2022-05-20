@@ -1,8 +1,8 @@
-# **sena-base-2021 v5.1.0**
+# **Fundamentos lingüísticos y proceso de traducción**
 
-## **https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/**
+## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/TECNOLOGO_LENGUAJE_SENAS_CF5/](https://ecored-sena.github.io/TECNOLOGO_LENGUAJE_SENAS_CF5/)
 
 #
 

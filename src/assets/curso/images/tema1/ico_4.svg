@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85" height="85" viewBox="0 0 85 85">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_34090" data-name="Rectángulo 34090" width="35.948" height="33.894" fill="none" stroke="#12263f" stroke-width="2"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_80640" data-name="Grupo 80640" transform="translate(-810 -5155)">
+    <circle id="Elipse_4761" data-name="Elipse 4761" cx="42.5" cy="42.5" r="42.5" transform="translate(810 5155)" fill="#cce951"/>
+    <g id="Grupo_80588" data-name="Grupo 80588" transform="translate(835 5181)">
+      <line id="Línea_120" data-name="Línea 120" y2="12.101" transform="translate(9.624 17.405)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Línea_121" data-name="Línea 121" y1="16.56" transform="translate(14.157 12.945)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Línea_122" data-name="Línea 122" y2="7.641" transform="translate(5.092 21.864)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Línea_123" data-name="Línea 123" y1="12.101" transform="translate(9.624 17.405)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Línea_124" data-name="Línea 124" y1="13.251" transform="translate(18.689 16.254)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Línea_125" data-name="Línea 125" y2="14.546" transform="translate(23.221 14.959)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Línea_126" data-name="Línea 126" y2="19.149" transform="translate(27.753 10.356)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Línea_127" data-name="Línea 127" y2="20.588" transform="translate(32.286 8.917)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <g id="Grupo_80587" data-name="Grupo 80587">
+        <g id="Grupo_80586" data-name="Grupo 80586" clip-path="url(#clip-path)">
+          <path id="Trazado_116219" data-name="Trazado 116219" d="M67.56,4.393,55.613,16.343l-5.6-5.572L39.391,21.357" transform="translate(-35.274 -3.934)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <path id="Trazado_116220" data-name="Trazado 116220" d="M4.393,46.118V74.733h35.03" transform="translate(-3.934 -41.298)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <path id="Trazado_116221" data-name="Trazado 116221" d="M266.966,4.436h4.383V8.819" transform="translate(-239.064 -3.972)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+      </g>
+      <line id="Línea_128" data-name="Línea 128" x2="2.368" transform="translate(7.256 29.505)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Línea_129" data-name="Línea 129" x2="2.368" transform="translate(11.788 29.505)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Línea_130" data-name="Línea 130" x2="2.368" transform="translate(16.321 29.505)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Línea_131" data-name="Línea 131" x2="2.368" transform="translate(20.853 29.505)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Línea_132" data-name="Línea 132" x2="2.368" transform="translate(25.385 29.505)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Línea_133" data-name="Línea 133" x2="2.368" transform="translate(29.917 29.505)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
