@@ -11,12 +11,12 @@
           .banner-principal__descripcion
             p.mb-0(v-html="globalData.descripcionCurso")
         .banner-principal__accion
-          router-link.boton.mg-bottom-banner(:to="{name: iniciarLnk.nombreRuta }")
+          router-link.boton.mg-bottom-banner.boton-1(:to="{name: iniciarLnk.nombreRuta }")
             span.me-1 Ver más
             i.fas.fa-angle-right
 
       .d-none.d-lg-block.col-lg-6.px-0.banner-principal__img.img-banner
-        img(:src="globalData.imagenBannerPrincipal")
+        img.mb-4(:src="globalData.imagenBannerPrincipal").mx-5
     .imagen_flotante_1.d-none.d-lg-block.col-lg-5.px-0.banner-principal__img: img(src="@/assets/curso/images/header/Mini_Elipse_white.svg")
     .imagen_flotante_2.d-none.d-lg-block.col-lg-5.px-0.banner-principal__img: img(src="@/assets/curso/images/header/Mini_Elipse_white_1.svg")
     .imagen_flotante_3.d-none.d-lg-block.col-lg-5.px-0.banner-principal__img: img(src="@/assets/curso/images/header/Mini_Elipse_white_2.svg")
@@ -62,10 +62,10 @@ export default {
     color: $color-banner-text
 
   .tarjeta
-    background-size: contain
+    background-size: cover
     background-position: center
     background-repeat: no-repeat
-    top: 49px
+    top: 50px
     margin-bottom: 70px
     @media (max-width: 992px)
       background-size: cover
@@ -79,17 +79,21 @@ export default {
     display: flex
     flex-direction: column
     justify-content: center
-
+    margin-left: -80px
+    @media (max-width: 992px)
+      margin-left: 3rem
+      padding: 70px
   &__programa
     display: flex
     align-items: center
-    margin-bottom: 20px
+
+
 
 
   &__componente
-    margin-bottom: 20px
+    margin-bottom: 80px
     margin-left: -40px
-    margin-top: -6rem
+    margin-top: -1rem
     @media (max-width: $bp-max-xs)
       margin-top: -40px
     h1
@@ -99,8 +103,9 @@ export default {
         font-size: 2em
 
   &__descripcion
-    margin-bottom: 20px
+    margin-bottom: 50px
     margin-left: -40px
+    margin-top: -45px
 
   &__row
     @if $banner-principal-img-x == 'derecha'
@@ -142,7 +147,7 @@ export default {
     animation: float1 3s ease-in-out infinite alternate
     position: absolute
     width: 73px
-    top: 80px
+    top: 5px
     left: 85%
   &_2
     animation: float1 3.5s ease-in-out infinite alternate
@@ -151,17 +156,19 @@ export default {
     bottom: 80px
     box-shadow:
     left: 85%
+
   &_3
     animation: float1 3.8s ease-in-out infinite alternate
     position: absolute
     width: 50px
-    bottom: 50px
+    bottom: 80px
     left: 62%
+
   &_4
     animation: float1 4s ease-in-out infinite alternate
     position: absolute
     width: 30px
-    top: 5%
+    top: 5px
     left: 62%
     z-index: 99
   &_5
@@ -169,7 +176,7 @@ export default {
     position: absolute
     width: 400px
     top: 9rem
-    left: 58%
+    left: 62%
     z-index: 0
     @keyframes giro
   &_6
@@ -177,8 +184,8 @@ export default {
     animation: float1 2.7s ease-in-out infinite alternate
     position: absolute
     width: 340px
-    top: 3rem
-    right: 11rem
+    top: 5rem
+    right: 8rem
     z-index: 99
   &_7
     animation: float1 2.5s ease-in-out infinite alternate

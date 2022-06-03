@@ -19,7 +19,7 @@
 
     .row.justify-content-star.mb-5
       .col-lg-5(data-aos="fade-right")
-        img.mx-5(src='@/assets/curso/images/tema1/img_2.png'  alt='', style="width:440px; display:block; margin:auto 0 ;").mb-3
+        img(src='@/assets/curso/images/tema1/img_2.png'  alt='', style="width:440px; display:block; margin:auto 0 ;").mb-3
       .col-lg-7(data-aos="fade-left") 
         .cajon.color-custom.p-5.mb-5
           p.mb-3 El vocabulario puede designar palabras que sean comunes a una región, grupo, actividad o profesión determinada; como vocabulario costeño, de parlache, jurídico o de medicina, respectivamente. Un intérprete de lengua de señas en Colombia bien se puede encontrar con idiomas específicos en su labor.
@@ -30,15 +30,15 @@
 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-7(data-aos="fade-left") 
-        .cajon.color-custom-1.p-5.mb-3
-          p.mb-3 Este es un ejemplo de una polisemia que parte de una palabra: gemelos.  En el vocabulario habitual la mayoría sabe qué hace referencia a dos hermanos idénticos. Alegóricamente hablando se dice que algo gemelo es igual, parejo o exacto. En el mundo de la moda la misma palabra hace referencia a los botones o mancuernas de una camisa. En las ópticas, los gemelos son binoculares. Y los médicos se refieren a un músculo de los miembros inferiores cuando hablan de gemelos. Así, una palabra puede variar según el área específica.
-          p.mb-0 El intérprete y traductor debe mantener una terminología coherente pero ajustada al contexto específico en el cual se presenta el servicio de interpretación, este debe consultar el léxico pertinente y el vocabulario especializado antes de prestar algún servicio, además de seleccionar el vocabulario de acuerdo con los criterios técnicos y de contexto que se presenta, de esta manera puede construir una macroestructura del discurso.
+        .cajon.color-custom-1.mb-3.p-3
+          p.mb-3.p-2 Este es un ejemplo de una polisemia que parte de una palabra: gemelos.  En el vocabulario habitual la mayoría sabe qué hace referencia a dos hermanos idénticos. Alegóricamente hablando se dice que algo gemelo es igual, parejo o exacto. En el mundo de la moda la misma palabra hace referencia a los botones o mancuernas de una camisa. En las ópticas, los gemelos son binoculares. Y los médicos se refieren a un músculo de los miembros inferiores cuando hablan de gemelos. Así, una palabra puede variar según el área específica.
+          p.mb-5.p-2 El intérprete y traductor debe mantener una terminología coherente pero ajustada al contexto específico en el cual se presenta el servicio de interpretación, este debe consultar el léxico pertinente y el vocabulario especializado antes de prestar algún servicio, además de seleccionar el vocabulario de acuerdo con los criterios técnicos y de contexto que se presenta, de esta manera puede construir una macroestructura del discurso.
       .col-lg-5(data-aos="fade-right")
-        img(src='@/assets/curso/images/tema1/img_3.png'  alt='', style="width:550px; display:block; margin:auto 0 ;")
+        img(src='@/assets/curso/images/tema1/img_3.png')
 
     p.mb-3 Además, el intérprete se enfrenta a otros desafíos, a parte del vocabulario técnico, puede encontrarse ante una variedad de sordos con diferentes habilidades de lenguaje que pueden o no conocer los tecnicismos de la lengua de señas colombiana; pueden ser sordos que quizás no conozcan las señas o hasta manejar una lengua pidgin, la inteligibilidad puede ser un hecho si no se conoce el léxico de antemano.
 
-    p.mb-3 La variación social, los sociolectos, el dialectismo, la variedad étnica, los idiolectos, las variaciones respecto al uso, entre otros, hacen del ejercicio de la interpretación y traducción una tarea cada vez más compleja. Además, no es lo mismo hablar del vocabulario en la lengua escrita, la lengua hablada y la lengua de señas.
+    p.mb-5 La variación social, los sociolectos, el dialectismo, la variedad étnica, los idiolectos, las variaciones respecto al uso, entre otros, hacen del ejercicio de la interpretación y traducción una tarea cada vez más compleja. Además, no es lo mismo hablar del vocabulario en la lengua escrita, la lengua hablada y la lengua de señas.
 
     .row.mb-5.ps-2(data-aos="zoom-in-down")
       .col-8.col-lg-3.bg-color-1
@@ -129,56 +129,58 @@
 
     p.mb-5 La búsqueda de documentación dependerá de los siguientes aspectos: 
 
-    .row.align-items-center.justify-content-center.mb-3(data-aos="zoom-in-down")  
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/images/tema1/ico_1.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--green
-            .p-5
-              p.p-3 Quienes son los emisores y los receptores de la información
+    .row.justify-content-center
+      .col-lg-10
+        .row.align-items-center.justify-content-center.mb-3(data-aos="zoom-in-down")  
+          .col-lg-6
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/images/tema1/ico_1.svg' alt='AvatarTop')
+              .tarjeta.tarjeta--green
+                .p-5
+                  p.p-3 Quienes son los emisores y los receptores de la información
 
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/images/tema1/ico_2.svg' alt='AvatarTop')   
-          .tarjeta.tarjeta--green
-            .p-5
-              p.mb-4 Dónde encontrar la información. (bibliotecas, empresas, centros de documentación, libros, artículos de revistas, literatura, prensa, legislación, entre otros)
+          .col-lg-6
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/images/tema1/ico_2.svg' alt='AvatarTop')   
+              .tarjeta.tarjeta--green
+                .p-4
+                  p.mb-5 Dónde encontrar la información. (bibliotecas, empresas, centros de documentación, libros, artículos de revistas, literatura, prensa, legislación, entre otros)
 
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/images/tema1/ico_3.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--green
-            .p-5
-              p Qué bases de datos y sistemas de recuperación se pueden utilizar y sus posibilidades
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/images/tema1/ico_4.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--green
-            .p-5
-              p.p-3 Análisis documental
+          .col-lg-6
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/images/tema1/ico_3.svg' alt='AvatarTop')
+              .tarjeta.tarjeta--green
+                .p-5
+                  p Qué bases de datos y sistemas de recuperación se pueden utilizar y sus posibilidades
+          .col-lg-6
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/images/tema1/ico_4.svg' alt='AvatarTop')
+              .tarjeta.tarjeta--green
+                .p-5
+                  p.p-4 Análisis documental
 
     p.mb-5 Todo lo que contenga cualquier tipo de información escrita, oral, gestual o multimedia, son una fuente de información, que pueden dividirse en:
 
 
-    .row.align-items-center.justify-content-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-auto.mb-3.mb-lg-0(data-aos="zoom-in-left")
         .tarjeta-avatar
           img(src='@/assets/curso/images/tema1/ico_5.svg' alt='AvatarTop')
           .tarjeta.color-custom
-            .p-4
-              h2.text-center Fuentes documentales primarias: 
+            .p-5
+              h3.text-center.mt-3 Fuentes documentales primarias: 
               p.mb-5 Es toda la información original o nueva, es decir, un trabajo intelectual propio, que no ha sido evaluado por nadie, ni interpretado o filtrado.
 
       .col-lg-4.col-auto.mb-3.mb-lg-0(data-aos="zoom-in-left")
         .tarjeta-avatar
           img(src='@/assets/curso/images/tema1/ico_6.svg' alt='AvatarTop')
           .tarjeta.color-custom
-            .p-4
-              h2.text-center Fuentes documentales secundarias:
+            .p-5
+              h3.text-center.mt-3 Fuentes documentales secundarias:
               p.mb-4 Se basa en la información primaria, donde la extraen, organizan y analizan. Utiliza la documentación primaria como referencia para controlarla y facilitar el acceso a esta. 
     
     Separador 

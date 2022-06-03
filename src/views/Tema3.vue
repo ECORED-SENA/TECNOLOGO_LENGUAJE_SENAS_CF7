@@ -16,7 +16,7 @@
     #t_3_1.titulo-segundo
       .h2 3.1 Definición
     
-    .row.justify-content-star.mb-5
+    .row.justify-content-star
       .col-lg-7(data-aos="fade-right")
         img(src='@/assets/curso/images/tema3/img_1.png').mb-3
       .col-lg-5(data-aos="fade-left") 
@@ -62,28 +62,27 @@
             .row 
               .col-lg-12.mb-4
                 h3 Riesgo biomecánico
-              .row.p-3
+              .row.justify-content-center
                 .col-lg-4
                   img(src="@/assets/curso/images/tema3/img_3.png")
                 .col-lg-8
-                  p.mb-3 El cual hace referencia al desgaste físico en tanto este puede ser alterado por los movimientos que deben realizar al señar por tiempos prolongados, relacionado con el discurso de los profesores de área y por las posiciones que deben mantener en periodos largos sin la posibilidad de tener un relevo por la organización de las clases. (Villamil et al. 2018, p.55)
+                  p.my-3 El cual hace referencia al desgaste físico en tanto este puede ser alterado por los movimientos que deben realizar al señar por tiempos prolongados, relacionado con el discurso de los profesores de área y por las posiciones que deben mantener en periodos largos sin la posibilidad de tener un relevo por la organización de las clases. (Villamil et al. 2018, p.55)
               .row.justify-content-center
                 .col-lg-12
-                  p.mb-2 De acuerdo con el Centro de Intérpretes de Lengua de Signos Española y Guías Intérpretes de Castilla y León, como se citó en Villamil et al. (2018), exponen que los Intérpretes de Lengua de Señas tienen que hacer movimientos manuales donde separan los codos del centro del cuerpo y mantienen los brazos en el aire por periodos largos de tiempo y adicionalmente varían la velocidad de los movimientos según la producción del lenguaje y la comunicación. Además, según Feuerstein, Marshall, Shaw & Burrell, como se citó en Villamil et al. (2018, p.56) los intérpretes de lengua de señas realizan aproximadamente 270 movimientos/min., en intervalos de 13.600/15 min., lo cual puede producir a largo plazo desórdenes musculoesqueléticos en manos y muñecas.
+                  p.my-3 De acuerdo con el Centro de Intérpretes de Lengua de Signos Española y Guías Intérpretes de Castilla y León, como se citó en Villamil et al. (2018), exponen que los Intérpretes de Lengua de Señas tienen que hacer movimientos manuales donde separan los codos del centro del cuerpo y mantienen los brazos en el aire por periodos largos de tiempo y adicionalmente varían la velocidad de los movimientos según la producción del lenguaje y la comunicación. Además, según Feuerstein, Marshall, Shaw & Burrell, como se citó en Villamil et al. (2018, p.56) los intérpretes de lengua de señas realizan aproximadamente 270 movimientos/min., en intervalos de 13.600/15 min., lo cual puede producir a largo plazo desórdenes musculoesqueléticos en manos y muñecas.
                 
           .tarjeta.back-tab.p-4(titulo="El riesgo psicosocialo")
             
             .row 
-              .col-lg-12.mb-4
+              .col-lg-12
                 h3 El riesgo psicosocialo
               .row.p-3
                 .col-lg-4
-                  img(src="@/assets/curso/images/tema3/img_4.png")
+                  img(src="@/assets/curso/images/tema3/img_4.png").mb-3
                 .col-lg-8
-                  p.mb-3 Relacionado  con cuatro procesos el primero de ellos es el desgaste mental, lo anterior está sujeto al mismo proceso cognitivo de la interpretación en Lengua de Señas, el INSOR (como se citó en Villamil et al. 2018,  p.61) considera que el proceso de interpretación implica un proceso de recepción, procesamiento y transmisión de la información, además, este proceso exige unas capacidades que debe tener el Intérprete de Lengua de Señas como lo son la discriminación auditiva 
-              .row.justify-content-center
+                  | Relacionado  con cuatro procesos el primero de ellos es el desgaste mental, lo anterior está sujeto al mismo proceso cognitivo de la interpretación en Lengua de Señas, el INSOR (como se citó en Villamil et al. 2018,  p.61) considera que el proceso de interpretación implica un proceso de recepción, procesamiento y transmisión de la información, además, este proceso exige unas capacidades que debe tener el Intérprete de Lengua de Señas como lo son la discriminación auditiva 
                 .col-lg-12
-                  p.mb-3 vocal, la comprensión rápida de los mensajes, el conocimiento gramatical  lexical de ambas lenguas, capacidad para analizar y asimilar el mensaje en poco tiempo y capacidades de adaptación con el orador, todo con el fin de articular las ideas de las oraciones para dar un mensaje lógico y ordenado. El Segundo, con el nivel de atención y memoria que deben de prestar y tener al interpretar y el tercero, con el aprendizaje nuevo y constante que deben tener, tanto para dictar sus clases como para ampliar su lenguaje, y así mismo las señas que deben usar para cada momento específico de los discursos. El cuarto, con el estrés laboral percibido por las actividades y funciones tanto de interpretación como de docencia (p. 61-62-63).
+                  p vocal, la comprensión rápida de los mensajes, el conocimiento gramatical  lexical de ambas lenguas, capacidad para analizar y asimilar el mensaje en poco tiempo y capacidades de adaptación con el orador, todo con el fin de articular las ideas de las oraciones para dar un mensaje lógico y ordenado. El Segundo, con el nivel de atención y memoria que deben de prestar y tener al interpretar y el tercero, con el aprendizaje nuevo y constante que deben tener, tanto para dictar sus clases como para ampliar su lenguaje, y así mismo las señas que deben usar para cada momento específico de los discursos. El cuarto, con el estrés laboral percibido por las actividades y funciones tanto de interpretación como de docencia (p. 61-62-63).
 
                   p.mb-2 Las consecuencias y manifestaciones percibidas por el estrés laboral al que están expuestos, los intérpretes refieren que pueden presentar dolores de cabeza, tensión muscular o diferentes alteraciones en el sistema nerviosos central de manera transitoria como fotofobia, parestesias o tics nerviosos, así mismo, otro tipo de manifestaciones como nerviosismo, ansiedad o actitudes de incomodidad (Villamil et al. 2018, p.63-64).
           
@@ -94,12 +93,11 @@
                 h3 Carga emocional 
               .row.p-3
                 .col-lg-4
-                  img(src="@/assets/curso/images/tema3/img_5.png")
+                  img(src="@/assets/curso/images/tema3/img_5.png").mb-3
                 .col-lg-8
-                  p.mb-3 Que perciben los intérpretes va enmarcada en los procesos de la no omisión de la información cuando realizan sus servicios de interpretación, así mismo, con las metodologías de enseñanza de los profesores de área y la presión al estar observados por otros al momento de realizar la interpretación (Villamil et al. 2018, p.64) de acuerdo con la Corporación Comuniquémonos sin voz, con voz (cómo se citó en Villamil et al. 2018) es así que los intérpretes terminan 
-              .row.justify-content-center
+                  | Que perciben los intérpretes va enmarcada en los procesos de la no omisión de la información cuando realizan sus servicios de interpretación, así mismo, con las metodologías de enseñanza de los profesores de área y la presión al estar observados por otros al momento de realizar la interpretación (Villamil et al. 2018, p.64) de acuerdo con la Corporación Comuniquémonos sin voz, con voz (cómo se citó en Villamil et al. 2018) es así que los intérpretes terminan 
                 .col-lg-12
-                  p.mb-3 escuchando a sus alumnos en temas personales y hay una carga emocional por no poder dar una adecuada o correcta consejería por la falta de conocimiento específico en esos temas. También la carga emocional se da por las mismas características del servicio de interpretación y la premisa de transmitir la información lo más fiel posible, sin omitir, ni añadir o alterar el mensaje final (p.65).
+                  | escuchando a sus alumnos en temas personales y hay una carga emocional por no poder dar una adecuada o correcta consejería por la falta de conocimiento específico en esos temas. También la carga emocional se da por las mismas características del servicio de interpretación y la premisa de transmitir la información lo más fiel posible, sin omitir, ni añadir o alterar el mensaje final (p.65).
 
 
           .tarjeta.back-tab.p-4(titulo="Problemas organizacionales")
@@ -111,7 +109,7 @@
                 .col-lg-4
                   img(src="@/assets/curso/images/tema3/img_6.png")
                 .col-lg-8
-                  p.mb-3 Relacionado con las dificultades que se tienen a nivel administrativo y organizacional de las funciones y responsabilidades de los Intérpretes y cómo estas dificultades afectan directa o indirectamente la la generación de factores de riesgo psicosociales (Villamil et al. 2018, p.66).
+                  p.my-3 Relacionado con las dificultades que se tienen a nivel administrativo y organizacional de las funciones y responsabilidades de los Intérpretes y cómo estas dificultades afectan directa o indirectamente la la generación de factores de riesgo psicosociales (Villamil et al. 2018, p.66).
               
 
     Separador 

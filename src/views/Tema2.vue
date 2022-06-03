@@ -18,24 +18,26 @@
     #t_2_1.titulo-segundo
       .h2 2.1 Acuerdos metodológicos
 
-    .row.justify-content-star.mb-5
+    .row.justify-content-center.mb-5
       .col-lg-7(data-aos="fade-right")
-        img(src='@/assets/curso/images/tema2/img_2.png' alt='', style="width:685px; display:block; margin:auto 0 ;").mb-3
+        img(src='@/assets/curso/images/tema2/img_2.png').mb-3
       .col-lg-5(data-aos="fade-left") 
-        .cajon.color-custom.p-5.mb-5
-          p.p-4 Para lograr un servicio de interpretación exitoso, lo que más le conviene tanto al usuario como al intérprete, es que el intérprete conozca de antemano el tipo de información que se tratará, el tema; y, si es posible, los contenidos. También es necesario acordar el tipo de interpretación que requiere el usuario, referente al vocabulario, la velocidad y la gesticulación vocal. Además, se tendrán en cuenta como acuerdos metodológicos, los deberes y responsabilidades del intérprete; así como lo que no implica una obligación a la hora de prestar el servicio.
+        .cajon.color-custom.p-5.h-100
+          p.p-2 Para lograr un servicio de interpretación exitoso, lo que más le conviene tanto al usuario como al intérprete, es que el intérprete conozca de antemano el tipo de información que se tratará, el tema; y, si es posible, los contenidos. También es necesario acordar el tipo de interpretación que requiere el usuario, referente al vocabulario, la velocidad y la gesticulación vocal. Además, se tendrán en cuenta como acuerdos metodológicos, los deberes y responsabilidades del intérprete; así como lo que no implica una obligación a la hora de prestar el servicio.
 
     Separador 
     
     #t_2_2.titulo-segundo
       .h2 2.2 Medios
-    
-    .bloque-texto-g.color-custom-2.p-3.p-sm-4.p-md-5.mb-5.d-none.d-lg-block
-      .bloque-texto-g__img.m-left(data-aos="fade-left")(
-    :style="{'background-image': `url(${require('@/assets/curso/images/tema2/img_3.png')})`}"
-    )
-      .bloque-texto-g__texto.p-5(data-aos="fade-right")
-        p.mb-3 Dependiendo del tipo del lugar en donde se presta el servicio, también es necesario tener en cuenta por cuál medio se realizará la interpretación, si será en el mismo lugar del evento y si allí se transmitirá por Video Beam; si se usará alguna plataforma tecnológica de interpretación a distancia vía Streaming o si se utilizará algún sistema de video llamada o video conferencia. Si se transmitirá por televisión. Todo esto le permitirá al intérprete hacerse una clara idea de cómo prestar un servicio óptimo.
+
+    .row.justify-content-center
+      .col-lg-10
+        .bloque-texto-g.color-custom-2.p-3.p-sm-4.p-md-5.mb-5.d-none.d-lg-block
+          .bloque-texto-g__img.m-left(data-aos="fade-left")(
+        :style="{'background-image': `url(${require('@/assets/curso/images/tema2/img_3.png')})`}"
+        )
+          .bloque-texto-g__texto.p-5(data-aos="fade-right")
+            p.mb-3 Dependiendo del tipo del lugar en donde se presta el servicio, también es necesario tener en cuenta por cuál medio se realizará la interpretación, si será en el mismo lugar del evento y si allí se transmitirá por Video Beam; si se usará alguna plataforma tecnológica de interpretación a distancia vía Streaming o si se utilizará algún sistema de video llamada o video conferencia. Si se transmitirá por televisión. Todo esto le permitirá al intérprete hacerse una clara idea de cómo prestar un servicio óptimo.
     
     .bloque-texto-a.color-custom-3.p-md-0.mb-5.d-block.d-lg-none
       .row.m-4.align-items-center.justify-content-between
