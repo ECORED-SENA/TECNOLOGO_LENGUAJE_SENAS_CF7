@@ -172,7 +172,7 @@
           img(src='@/assets/curso/images/tema1/ico_5.svg' alt='AvatarTop')
           .tarjeta.color-custom
             .p-5
-              h3.text-center.mt-3 Fuentes documentales primarias: 
+              h4.text-center.mt-3 Fuentes documentales primarias: 
               p.mb-5 Es toda la información original o nueva, es decir, un trabajo intelectual propio, que no ha sido evaluado por nadie, ni interpretado o filtrado.
 
       .col-lg-4.col-auto.mb-3.mb-lg-0(data-aos="zoom-in-left")
@@ -180,7 +180,7 @@
           img(src='@/assets/curso/images/tema1/ico_6.svg' alt='AvatarTop')
           .tarjeta.color-custom
             .p-5
-              h3.text-center.mt-3 Fuentes documentales secundarias:
+              h4.text-center.mt-3 Fuentes documentales secundarias:
               p.mb-4 Se basa en la información primaria, donde la extraen, organizan y analizan. Utiliza la documentación primaria como referencia para controlarla y facilitar el acceso a esta. 
     
     Separador 

@@ -71,18 +71,22 @@ export default {
       background-size: cover
       background-position: center
       background-repeat: no-repeat
-      top: 49px
-      margin-bottom: 50px
-      margin-top: -2rem
+      top: 159px
+      margin-bottom: 80px
+      margin-top: -5rem
+
 
   &__info
     display: flex
     flex-direction: column
     justify-content: center
-    margin-left: -80px
+    margin-left: -60px
+    padding: 80px
     @media (max-width: 992px)
       margin-left: 3rem
       padding: 70px
+      ps: 4px
+      py-sm: 5px
   &__programa
     display: flex
     align-items: center
