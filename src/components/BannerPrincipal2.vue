@@ -4,11 +4,11 @@
     :style="{'background-image': globalData.fondoBannerPrincipal ? `url(${globalData.fondoBannerPrincipal})` : 'none'}"
   )
     .row.banner-principal__row.position-relative.justify-content-center.align-items-center.g-5
-      .col-lg-7.col-xxl-6.py-4.py-sm-5.banner-principal__info.ps-5
-        .banner-principal__componente
+      .col-lg-7.col-xxl-6.py-4.py-sm-4.banner-principal__info.ps-5
+        .banner-principal__componente.mb-3
           h1.mb-0(v-html="globalData.componenteFormativo")
         .col-lg-12
-          .banner-principal__descripcion
+          .banner-principal__descripcion.mb-0
             p.mb-0(v-html="globalData.descripcionCurso")
         .banner-principal__accion
           router-link.boton.mg-bottom-banner.boton-1(:to="{name: iniciarLnk.nombreRuta }")
@@ -16,7 +16,7 @@
             i.fas.fa-angle-right
       
       .d-none.d-lg-block.col-lg-6.px-0.banner-principal__img.img-banner
-        img.mb-4(:src="globalData.imagenBannerPrincipal").mx-5
+        img.mb-5(:src="globalData.imagenBannerPrincipal").mx-5
     .imagen_flotante_1.d-none.d-lg-block.col-lg-5.px-0.banner-principal__img: img(src="@/assets/curso/images/header/Mini_Elipse_white.svg")
     .imagen_flotante_2.d-none.d-lg-block.col-lg-5.px-0.banner-principal__img: img(src="@/assets/curso/images/header/Mini_Elipse_white_1.svg")
     .imagen_flotante_3.d-none.d-lg-block.col-lg-5.px-0.banner-principal__img: img(src="@/assets/curso/images/header/Mini_Elipse_white_2.svg")
@@ -63,25 +63,34 @@ export default {
     background-size: cover
     background-position: center
     background-repeat: no-repeat
-    top: 50px
+    top: 48px
     margin-bottom: 70px
     @media (max-width: 1024px)
       background-size: cover
       background-position: center
       background-repeat: no-repeat
-      top: 79px
-      margin-bottom: 80px
-      margin-top: -5rem
+      top: 50px
+      margin-top: -1rem
+    @media (max-width: 392px)
+      background-size: cover
+      background-repeat: no-repeat
+
 
   &__info
     display: flex
     flex-direction: column
     justify-content: center
     margin-left: -60px
-    padding: 80px
-    @media (max-width: 992px)
-      margin-left: 3rem
-      padding: 70px
+    padding: 90px
+    @media (max-width: 1024px)
+      margin-left: -5rem
+      padding: 20px
+      margin-top: 5rem
+    @media (max-width: 392px)
+      margin-left: 2rem
+      padding: 40px
+      margin-top: 5rem
+
 
   &__programa
     display: flex
@@ -104,8 +113,11 @@ export default {
   &__descripcion
     margin-bottom: 50px
     margin-left: -40px
-    margin-top: -45px
-
+    margin-top: 5px
+    @media (max-width: 392px)
+      margin-top: -5px
+    @media (max-width: 1024px)
+      margin-top: -5px
 
   &__row
     @if $banner-principal-img-x == 'derecha'
@@ -180,6 +192,11 @@ export default {
     left: 62%
     z-index: 0
     @keyframes giro
+    @media (max-width: 1024px)
+      margin-right: -8rem
+      padding: 30px
+      margin-top: -5rem
+
   &_6
     filter: blur(2px)
     animation: float1 2.7s ease-in-out infinite alternate
@@ -188,6 +205,11 @@ export default {
     top: 5rem
     right: 10rem
     z-index: 99
+    @media (max-width: 1024px)
+      margin-right: -8rem
+      padding: 30px
+      margin-top: -5rem
+
   &_7
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
