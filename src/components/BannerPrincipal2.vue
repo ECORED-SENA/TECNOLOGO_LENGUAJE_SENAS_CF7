@@ -14,7 +14,7 @@
           router-link.boton.mg-bottom-banner.boton-1(:to="{name: iniciarLnk.nombreRuta }")
             span.me-1 Ver más
             i.fas.fa-angle-right
-
+      
       .d-none.d-lg-block.col-lg-6.px-0.banner-principal__img.img-banner
         img.mb-4(:src="globalData.imagenBannerPrincipal").mx-5
     .imagen_flotante_1.d-none.d-lg-block.col-lg-5.px-0.banner-principal__img: img(src="@/assets/curso/images/header/Mini_Elipse_white.svg")
@@ -48,13 +48,11 @@ export default {
   height: 100% !important
   width: 100%
 .banner-principal__info
-  padding-left: -120px  !important
+  padding-left: -150px  !important
   z-index: 3
   @media (max-width: $bp-max-xs)
     margin-top: 40px
     margin-left: 22px
-
-
 
 
 .banner-principal
@@ -67,14 +65,13 @@ export default {
     background-repeat: no-repeat
     top: 50px
     margin-bottom: 70px
-    @media (max-width: 992px)
+    @media (max-width: 1024px)
       background-size: cover
       background-position: center
       background-repeat: no-repeat
-      top: 159px
+      top: 79px
       margin-bottom: 80px
       margin-top: -5rem
-
 
   &__info
     display: flex
@@ -85,13 +82,10 @@ export default {
     @media (max-width: 992px)
       margin-left: 3rem
       padding: 70px
-      ps: 4px
-      py-sm: 5px
+
   &__programa
     display: flex
     align-items: center
-
-
 
 
   &__componente
@@ -106,10 +100,12 @@ export default {
       @media (max-width: $bp-max-xs)
         font-size: 2em
 
+
   &__descripcion
     margin-bottom: 50px
     margin-left: -40px
     margin-top: -45px
+
 
   &__row
     @if $banner-principal-img-x == 'derecha'
@@ -144,6 +140,7 @@ export default {
       @media (min-width: $bp-min-sm)
         padding-top: 3rem!important
         padding-bottom: 3rem!important
+
 
 
 .imagen_flotante
@@ -189,7 +186,7 @@ export default {
     position: absolute
     width: 340px
     top: 5rem
-    right: 8rem
+    right: 10rem
     z-index: 99
   &_7
     animation: float1 2.5s ease-in-out infinite alternate
