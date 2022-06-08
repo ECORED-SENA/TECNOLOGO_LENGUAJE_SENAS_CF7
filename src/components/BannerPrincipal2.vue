@@ -3,9 +3,9 @@
   .container.tarjeta.position-relative(
     :style="{'background-image': globalData.fondoBannerPrincipal ? `url(${globalData.fondoBannerPrincipal})` : 'none'}"
   )
-    .row.banner-principal__row.position-relative.justify-content-center.align-items-center.g-5
-      .col-lg-7.col-xxl-6.py-4.py-sm-4.banner-principal__info.ps-5
-        .banner-principal__componente.mb-3
+    .row.banner-principal__row.position-relative.justify-content-center.align-items-center
+      .col-lg-7.col-xxl-6.py-4.py-sm-5.banner-principal__info.px-3
+        .banner-principal__componente
           h1.mb-0(v-html="globalData.componenteFormativo")
         .col-lg-12
           .banner-principal__descripcion.mb-0
@@ -16,7 +16,7 @@
             i.fas.fa-angle-right
       
       .d-none.d-lg-block.col-lg-6.px-0.banner-principal__img.img-banner
-        img.mb-5(:src="globalData.imagenBannerPrincipal").mx-5
+        img(:src="globalData.imagenBannerPrincipal")
     .imagen_flotante_1.d-none.d-lg-block.col-lg-5.px-0.banner-principal__img: img(src="@/assets/curso/images/header/Mini_Elipse_white.svg")
     .imagen_flotante_2.d-none.d-lg-block.col-lg-5.px-0.banner-principal__img: img(src="@/assets/curso/images/header/Mini_Elipse_white_1.svg")
     .imagen_flotante_3.d-none.d-lg-block.col-lg-5.px-0.banner-principal__img: img(src="@/assets/curso/images/header/Mini_Elipse_white_2.svg")
@@ -48,11 +48,7 @@ export default {
   height: 100% !important
   width: 100%
 .banner-principal__info
-  padding-left: -150px  !important
   z-index: 3
-  @media (max-width: $bp-max-xs)
-    margin-top: 40px
-    margin-left: 22px
 
 
 .banner-principal
@@ -60,51 +56,36 @@ export default {
     color: $color-banner-text
 
   .tarjeta
+    background-color: $color-banner-fondo
     background-size: cover
-    background-position: center
-    background-repeat: no-repeat
-    top: 48px
-    margin-bottom: 70px
-    @media (max-width: 1024px)
-      background-size: cover
-      background-position: center
-      background-repeat: no-repeat
-      top: 50px
-      margin-top: -1rem
-    @media (max-width: 392px)
-      background-size: cover
-      background-repeat: no-repeat
-
+    background-position: 50%
 
   &__info
     display: flex
     flex-direction: column
     justify-content: center
-    margin-left: -60px
-    padding: 90px
-    @media (max-width: 1024px)
-      margin-left: -5rem
-      padding: 20px
-      margin-top: 5rem
     @media (max-width: 392px)
-      margin-left: 2rem
-      padding: 40px
+      margin-left: 5rem
+      padding: 50px
       margin-top: 5rem
+
 
 
   &__programa
     display: flex
     align-items: center
+    margin-bottom: 40px
+
 
 
   &__componente
-    margin-bottom: 80px
+    margin-bottom: 40px
     margin-left: -40px
-    margin-top: -1rem
+    margin-top: -1.5rem
     @media (max-width: $bp-max-xs)
       margin-top: -40px
     h1
-      line-height: 1.1em
+      line-height: 1em
 
       @media (max-width: $bp-max-xs)
         font-size: 2em
@@ -113,9 +94,10 @@ export default {
   &__descripcion
     margin-bottom: 50px
     margin-left: -40px
-    margin-top: 5px
+    margin-top: 10px
     @media (max-width: 392px)
-      margin-top: -5px
+      margin-left: -69px
+      padding: 25px
     @media (max-width: 1024px)
       margin-top: -5px
 
@@ -184,18 +166,20 @@ export default {
     top: 5px
     left: 62%
     z-index: 99
+
   &_5
     animation: giro .9s ease-in-out infinite alternate
     position: absolute
-    width: 400px
+    width: 345px
     top: 9rem
-    left: 62%
+    left: 64%
     z-index: 0
     @keyframes giro
     @media (max-width: 1024px)
-      margin-right: -8rem
+      width: 285px
+      margin-left: 2rem
       padding: 30px
-      margin-top: -5rem
+      margin-top: 1rem
 
   &_6
     filter: blur(2px)
@@ -203,12 +187,12 @@ export default {
     position: absolute
     width: 340px
     top: 5rem
-    right: 10rem
+    right: 7rem
     z-index: 99
     @media (max-width: 1024px)
       margin-right: -8rem
       padding: 30px
-      margin-top: -5rem
+      margin-top: -1rem
 
   &_7
     animation: float1 2.5s ease-in-out infinite alternate
