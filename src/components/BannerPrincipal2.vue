@@ -173,6 +173,12 @@ export default {
     top: 5rem
     right: 7rem
     z-index: 99
+    @media (max-width: 1024px)
+      width: 290px
+      margin-right: -5rem
+      padding: 30px
+      margin-top: -5rem
+
     @media (max-width: 992px)
       width: 290px
       margin-right: -5rem
