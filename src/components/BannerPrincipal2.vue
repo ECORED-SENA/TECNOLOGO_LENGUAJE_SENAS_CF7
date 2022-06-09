@@ -11,7 +11,7 @@
           .banner-principal__descripcion.mb-0
             p.mb-0(v-html="globalData.descripcionCurso")
         .banner-principal__accion
-          router-link.boton(:to="{name: iniciarLnk.nombreRuta }")
+          router-link.boton.boton-1(:to="{name: iniciarLnk.nombreRuta }")
             span.me-1 Ver más
             i.fas.fa-angle-right
       
@@ -84,7 +84,15 @@ export default {
 
 
   &__descripcion
-    margin-bottom: 20px
+    margin-bottom: 50px
+    margin-left: -40px
+    margin-top: 10px
+    @media (max-width: 392px)
+      margin-left: -9px
+      padding: 25px
+    @media (max-width: 992px)
+      margin-top: -8px
+
 
   &__row
     @if $banner-principal-img-x == 'derecha'
