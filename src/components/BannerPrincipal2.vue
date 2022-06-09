@@ -11,12 +11,12 @@
           .banner-principal__descripcion.mb-0
             p.mb-0(v-html="globalData.descripcionCurso")
         .banner-principal__accion
-          router-link.boton.mg-bottom-banner.boton-1(:to="{name: iniciarLnk.nombreRuta }")
+          router-link.boton(:to="{name: iniciarLnk.nombreRuta }")
             span.me-1 Ver más
             i.fas.fa-angle-right
       
       .d-none.d-lg-block.col-lg-6.px-0.banner-principal__img.img-banner
-        img(:src="globalData.imagenBannerPrincipal")
+        img(:src="globalData.imagenBannerPrincipal" style="width: 606px")
     .imagen_flotante_1.d-none.d-lg-block.col-lg-5.px-0.banner-principal__img: img(src="@/assets/curso/images/header/Mini_Elipse_white.svg")
     .imagen_flotante_2.d-none.d-lg-block.col-lg-5.px-0.banner-principal__img: img(src="@/assets/curso/images/header/Mini_Elipse_white_1.svg")
     .imagen_flotante_3.d-none.d-lg-block.col-lg-5.px-0.banner-principal__img: img(src="@/assets/curso/images/header/Mini_Elipse_white_2.svg")
@@ -60,46 +60,31 @@ export default {
     background-size: cover
     background-position: 50%
 
+
   &__info
     display: flex
     flex-direction: column
     justify-content: center
-    @media (max-width: 392px)
-      margin-left: 5rem
-      padding: 50px
-      margin-top: 5rem
-
 
 
   &__programa
     display: flex
     align-items: center
-    margin-bottom: 40px
+    margin-bottom: 20px
 
 
 
   &__componente
-    margin-bottom: 40px
-    margin-left: -40px
-    margin-top: -1.5rem
-    @media (max-width: $bp-max-xs)
-      margin-top: -40px
+    margin-bottom: 20px
     h1
-      line-height: 1em
+      line-height: 1.1em
 
       @media (max-width: $bp-max-xs)
         font-size: 2em
 
 
   &__descripcion
-    margin-bottom: 50px
-    margin-left: -40px
-    margin-top: 10px
-    @media (max-width: 392px)
-      margin-left: -69px
-      padding: 25px
-    @media (max-width: 1024px)
-      margin-top: -5px
+    margin-bottom: 20px
 
   &__row
     @if $banner-principal-img-x == 'derecha'
@@ -114,7 +99,9 @@ export default {
 
   &__img
     animation: scale 5s ease-in-out infinite alternate
-    width: 25%
+    width: 28%
+    @media (max-width: 992px)
+      margin-bottom: 89px
 
 
     @if $banner-principal-img-y == 'arriba'
@@ -144,6 +131,7 @@ export default {
     width: 73px
     top: 5px
     left: 90%
+
   &_2
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
@@ -170,16 +158,12 @@ export default {
   &_5
     animation: giro .9s ease-in-out infinite alternate
     position: absolute
-    width: 420px
+    width: 340px
     top: 5rem
-    left: 62%
+    left: 65%
     z-index: 0
     @keyframes giro
-    @media (max-width: 1024px)
-      width: 305px
-      margin-left: 3rem
-      padding: 30px
-      margin-top: 4rem
+
 
   &_6
     filter: blur(2px)
@@ -189,11 +173,11 @@ export default {
     top: 5rem
     right: 7rem
     z-index: 99
-    @media (max-width: 1024px)
-      width: 280px
+    @media (max-width: 992px)
+      width: 290px
       margin-right: -5rem
       padding: 30px
-      margin-top: 1rem
+      margin-top: -5rem
 
   &_7
     animation: float1 2.5s ease-in-out infinite alternate
