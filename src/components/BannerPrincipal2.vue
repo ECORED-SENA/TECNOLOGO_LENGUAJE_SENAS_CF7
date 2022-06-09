@@ -143,14 +143,14 @@ export default {
     position: absolute
     width: 73px
     top: 5px
-    left: 85%
+    left: 90%
   &_2
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     width: 50px
     bottom: 80px
     box-shadow:
-    left: 85%
+    left: 94%
 
   &_3
     animation: float1 3.8s ease-in-out infinite alternate
@@ -170,16 +170,16 @@ export default {
   &_5
     animation: giro .9s ease-in-out infinite alternate
     position: absolute
-    width: 345px
-    top: 9rem
-    left: 64%
+    width: 420px
+    top: 5rem
+    left: 62%
     z-index: 0
     @keyframes giro
     @media (max-width: 1024px)
-      width: 285px
-      margin-left: 2rem
+      width: 305px
+      margin-left: 3rem
       padding: 30px
-      margin-top: 1rem
+      margin-top: 4rem
 
   &_6
     filter: blur(2px)
@@ -190,9 +190,10 @@ export default {
     right: 7rem
     z-index: 99
     @media (max-width: 1024px)
-      margin-right: -8rem
+      width: 280px
+      margin-right: -5rem
       padding: 30px
-      margin-top: -1rem
+      margin-top: 1rem
 
   &_7
     animation: float1 2.5s ease-in-out infinite alternate
