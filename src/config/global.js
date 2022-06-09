@@ -4,7 +4,7 @@ export default {
       'Vocabulario técnico, requerimientos y salud ocupacional',
     descripcionCurso:
       'La Interpretación y traducción en lengua de señas colombiana (LSC) – español, integra conocimientos sobre lo educativo y los servicios de interpretación y traducción desde una perspectiva de los determinantes sociales y en consonancia con las políticas nacionales, en especial desde la Constitución Política de 1991 que reguló las leyes que promueven sus derechos y garantías, además del apoyo en la investigación, enseñanza y difusión de la Lengua de Señas Colombiana LSC.',
-    fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal_1.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal_2.png'),
     imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal_7.png'),
     fondoBannerInterno: require('@/assets/curso/images/header/interno.svg'),
   },
