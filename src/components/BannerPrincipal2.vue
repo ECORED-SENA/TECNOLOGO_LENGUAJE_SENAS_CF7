@@ -1,29 +1,29 @@
 <template lang="pug">
 .banner-principal
-  .container.tarjeta.position-relative(
+  .container.tarjeta(
     :style="{'background-image': globalData.fondoBannerPrincipal ? `url(${globalData.fondoBannerPrincipal})` : 'none'}"
   )
-    .row.banner-principal__row.position-relative.justify-content-center.align-items-center
-      .col-lg-7.col-xxl-6.py-4.py-sm-5.banner-principal__info.px-3
+    .row.banner-principal__row
+      .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
         .banner-principal__componente
           h1.mb-0(v-html="globalData.componenteFormativo")
-        .col-lg-12
-          .banner-principal__descripcion.mb-0
-            p.mb-0(v-html="globalData.descripcionCurso")
+        .banner-principal__descripcion
+          p.mb-0(v-html="globalData.descripcionCurso")
         .banner-principal__accion
-          router-link.boton.boton-1(:to="{name: iniciarLnk.nombreRuta }")
+          router-link.boton(:to="{name: iniciarLnk.nombreRuta }")
             span.me-1 Ver más
             i.fas.fa-angle-right
       
-      .d-none.d-lg-block.col-lg-6.px-0.banner-principal__img.img-banner
-        img(:src="globalData.imagenBannerPrincipal" style="width: 606px")
+      .d-none.d-lg-block.col-lg-5.px-0.banner-principal__img.img-banner
+        img(:src="globalData.imagenBannerPrincipal" style="width: 320px; margin: 0 auto;")
+
     .imagen_flotante_1.d-none.d-lg-block.col-lg-5.px-0.banner-principal__img: img(src="@/assets/curso/images/header/Mini_Elipse_white.svg")
     .imagen_flotante_2.d-none.d-lg-block.col-lg-5.px-0.banner-principal__img: img(src="@/assets/curso/images/header/Mini_Elipse_white_1.svg")
     .imagen_flotante_3.d-none.d-lg-block.col-lg-5.px-0.banner-principal__img: img(src="@/assets/curso/images/header/Mini_Elipse_white_2.svg")
     .imagen_flotante_4.d-none.d-lg-block.col-lg-5.px-0.banner-principal__img: img(src="@/assets/curso/images/header/flechas.svg")
     .imagen_flotante_5.d-none.d-lg-block.col-lg-5.px-0.banner-principal__img: img(src="@/assets/curso/images/header/Elipse_blue.svg")
     .imagen_flotante_6.d-none.d-lg-block.col-lg-5.px-0.banner-principal__img: img(src="@/assets/curso/images/header/Elipse_white.svg")
-  
+        
 
 </template>
 
@@ -41,16 +41,6 @@ export default {
 </script>
 
 <style lang="sass">
-.fondo-contenido
-  position: absolute
-  padding: 0px
-  z-index: 2
-  height: 100% !important
-  width: 100%
-.banner-principal__info
-  z-index: 3
-
-
 .banner-principal
   p, h1, h2, h3, h4, h5, h6
     color: $color-banner-text
@@ -58,21 +48,17 @@ export default {
   .tarjeta
     background-color: $color-banner-fondo
     background-size: cover
-    background-position: 50%
-
+    background-position: center
 
   &__info
     display: flex
     flex-direction: column
     justify-content: center
 
-
   &__programa
     display: flex
     align-items: center
     margin-bottom: 20px
-
-
 
   &__componente
     margin-bottom: 20px
@@ -82,17 +68,8 @@ export default {
       @media (max-width: $bp-max-xs)
         font-size: 2em
 
-
   &__descripcion
-    margin-bottom: 50px
-    margin-left: -40px
-    margin-top: 10px
-    @media (max-width: 392px)
-      margin-left: -9px
-      padding: 25px
-    @media (max-width: 992px)
-      margin-top: -8px
-
+    margin-bottom: 20px
 
   &__row
     @if $banner-principal-img-x == 'derecha'
@@ -106,12 +83,6 @@ export default {
           padding-right: 3rem!important
 
   &__img
-    animation: scale 5s ease-in-out infinite alternate
-    width: 28%
-    @media (max-width: 992px)
-      margin-bottom: 89px
-
-
     @if $banner-principal-img-y == 'arriba'
       align-self: flex-start
       padding-bottom: 1.5rem
@@ -129,8 +100,6 @@ export default {
       @media (min-width: $bp-min-sm)
         padding-top: 3rem!important
         padding-bottom: 3rem!important
-
-
 
 .imagen_flotante
   &_1
@@ -167,8 +136,8 @@ export default {
     animation: giro .9s ease-in-out infinite alternate
     position: absolute
     width: 340px
-    top: 5rem
-    left: 65%
+    top: 4rem
+    left: 63%
     z-index: 0
     @keyframes giro
 
@@ -233,15 +202,4 @@ export default {
 
   100%
     transform: rotate(360deg)
-
-
-
-
-
-@media (max-width: $bp-max-md)
-  .fondo-contenido
-    display: none
-  .fondo-contenido2
-    background-repeat: no-repeat
-    background-size: cover
 </style>
