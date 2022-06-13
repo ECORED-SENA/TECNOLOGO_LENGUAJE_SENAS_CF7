@@ -160,13 +160,13 @@ export default {
     },
     {
       referencia:
-        'Ministerio de tecnologías de la información y las comunicaciones. Peticiones, quejas, reclamos, sugerencias y denuncias (PQRSD)',
+        'Ministerio de tecnologías de la información y las comunicaciones. Peticiones, quejas, reclamos, sugerencias y denuncias (PQRSD).',
       link:
         'https://www.mintic.gov.co/portal/inicio/Peticiones-quejas-reclamos-sugerencias-y-denuncias-PQRSD/',
     },
     {
       referencia:
-        'Moya, V. (1993). Nombres propios: su traducción. Revista de Filología de la Universidad de la Laguna, (12), 233-248',
+        'Moya, V. (1993). Nombres propios: su traducción. Revista de Filología de la Universidad de la Laguna, (12), 233-248.',
     },
     {
       referencia:
