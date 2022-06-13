@@ -37,13 +37,13 @@
         :style="{'background-image': `url(${require('@/assets/curso/images/tema2/img_3.png')})`}"
         )
           .bloque-texto-g__texto.p-5(data-aos="fade-right")
-            p.mb-3 Dependiendo del tipo del lugar en donde se presta el servicio, también es necesario tener en cuenta por cuál medio se realizará la interpretación, si será en el mismo lugar del evento y si allí se transmitirá por Video Beam; si se usará alguna plataforma tecnológica de interpretación a distancia vía Streaming o si se utilizará algún sistema de video llamada o video conferencia. Si se transmitirá por televisión. Todo esto le permitirá al intérprete hacerse una clara idea de cómo prestar un servicio óptimo.
+            p.mb-3 Dependiendo del tipo del lugar en donde se presta el servicio, también es necesario tener en cuenta por cuál medio se realizará la interpretación, si será en el mismo lugar del evento y si allí se transmitirá por <i> Video Beam; </i> si se usará alguna plataforma tecnológica de interpretación a distancia vía <i> Streaming </i> o si se utilizará algún sistema de video llamada o video conferencia. Si se transmitirá por televisión. Todo esto le permitirá al intérprete hacerse una clara idea de cómo prestar un servicio óptimo.
     
     .bloque-texto-a.color-custom-3.p-md-0.mb-5.d-block.d-lg-none
       .row.m-4.align-items-center.justify-content-between
         .col-lg-9(data-aos="fade-right")
           .bloque-texto-a__texto.p-5.my-5
-            p Dependiendo del tipo del lugar en donde se presta el servicio, también es necesario tener en cuenta por cuál medio se realizará la interpretación, si será en el mismo lugar del evento y si allí se transmitirá por Video Beam; si se usará alguna plataforma tecnológica de interpretación a distancia vía Streaming o si se utilizará algún sistema de video llamada o video conferencia. Si se transmitirá por televisión. Todo esto le permitirá al intérprete hacerse una clara idea de cómo prestar un servicio óptimo.
+            p Dependiendo del tipo del lugar en donde se presta el servicio, también es necesario tener en cuenta por cuál medio se realizará la interpretación, si será en el mismo lugar del evento y si allí se transmitirá por <i> Video Beam; </i> si se usará alguna plataforma tecnológica de interpretación a distancia vía <i> Streaming </i> o si se utilizará algún sistema de video llamada o video conferencia. Si se transmitirá por televisión. Todo esto le permitirá al intérprete hacerse una clara idea de cómo prestar un servicio óptimo.
         .col-lg-3.mb-3.mb-lg-0(data-aos="fade-left")
           figure
             img(src='@/assets/curso/images/tema2/img_3.png' alt='', style="width:400px; display:block; margin:-1rem 0 ;").mb-3

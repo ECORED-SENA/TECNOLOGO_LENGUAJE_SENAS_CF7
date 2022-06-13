@@ -217,7 +217,7 @@ export default {
     {
       termino: 'Metonimia',
       significado:
-        'Figura retórica para designar algo con otro nombre con el que tiene una relación semántica',
+        'Figura retórica para designar algo con otro nombre con el que tiene una relación semántica.',
     },
     {
       termino: 'Naturalización',
@@ -272,57 +272,6 @@ export default {
       tipo: 'PDF',
       descarga: '/downloads/Anexo 4. Nombres_propios_su_traduccion.pdf',
     },
-    {
-      texto:
-        'Parkinson de Saz, S. M. (1984). Teoría y técnicas de la traducción. Boletín AEPE, 31, 91-109.',
-      tipo: 'Artículo',
-      descarga: '/downloads/ANEXO 9 Teoría_y_técnicas_de_la_traducción.pdf',
-    },
-    {
-      texto:
-        'Carr, K. (2013). Métodos y técnicas de traducción de los culturemas en la versión española de Skumtimmen, de Johan Theorin.',
-      tipo: 'Artículo',
-      descarga:
-        '/downloads/ANEXO 10 Métodos_y_técnicas_ traducción_ en_culturemas.pdf',
-    },
-    {
-      texto: 'Matamoros, M. (2015). Procedimientos de traducción. UAMex.',
-      tipo: 'Artículo',
-      descarga: '/downloads/ANEXO 13 Procedimientos_de_traducción.pdf',
-    },
-    {
-      texto:
-        'Montes Giraldo, J. J. (1982). El español de Colombia: propuesta de clasificación dialectal. Thesaurus: Boletín del Instituto Caro y Cuervo, 37(1), 23-92.Acosta, D. F. (2020). El voseo en Medellín, Colombia: un rasgo dialectal distintivo de la identidad paisa. Dialectologia: revista electrònica, 91-109.',
-      tipo: 'Artículo',
-      descarga:
-        '/downloads/Anexo 18 El_voseo_en_Medellín_un_rasgo_dialectal_distintivo.pdf',
-    },
-    {
-      texto:
-        'Gómez Font, A. (1998). Un nuevo lenguaje técnico: el español en la red.',
-      tipo: 'Artículo',
-      descarga: '/downloads/Anexo 19 Un_nuevo_lenguaje_técnico.pdf',
-    },
-    {
-      texto:
-        'Gómez, N. L. (1999). Estructuras básicas y procesos fonológicos en la lengua de señas colombiana.',
-      tipo: 'Artículo',
-      descarga:
-        '/downloads/Anexo 21 Estructuras_basicas_y_procesos_fonológicos_en_LSC.pdf',
-    },
-    {
-      texto:
-        'Fridman-Mintz, B. (2012). Reflexiones sobre las etnias sordas. En el Congreso iberoamericano de educación bilingüe para sordos, Paraguay.',
-      tipo: 'Artículo',
-      descarga: '/downloads/Anexo 22 Sobre_como_nombramos_a_los_sordos.pdf',
-    },
-    {
-      texto:
-        'Massone, M. I., & Menéndez, S. M. (1996). Una aproximación interaccional para el análisis de la Lengua de Señas Argenfina.',
-      tipo: 'Artículo',
-      descarga:
-        '/downloads/Anexo 23 Una_aproximación_interaccional_para_el_análisis_de_la_Lengua_de_Señas_Argentina.pdf',
-    },
   ],
   creditos: {
     liderEquipo: [
@@ -338,11 +287,6 @@ export default {
         cargo: 'Asesor metodológico y pedagógico',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Tania Yaneth Ramírez Benítez',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro de comercio y servicios - Regional Tolima',
       },
       {
         nombre: 'Jhacesiz Mary Hincapié Atehortúa',
@@ -370,22 +314,9 @@ export default {
         centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
       {
-        nombre: 'Sergio Arturo Medina Castillo',
-        cargo: 'Evaluador instruccional',
-        centro:
-          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
-      },
-      {
         nombre: 'Martha Isabel Martínez Vargas',
         cargo: 'Productora audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander.',
-      },
-      {
-        nombre: 'Julieth Paola Vital López',
-        cargo: 'Revisora de estilo',
-        centro:
-          'Centro para la Industria y la Comunicación Gráfica – Regional Distrito Capital',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -401,7 +332,7 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Diana Carolina Acevedo Barón'],
+        nombre: ['Diana Carolina Acevedo Barón', 'Juan Daniel Polanco Muñoz'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
@@ -413,16 +344,36 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Gilberto Junior Rodriguez Rodriguez',
+        nombre: 'Camilo Andrés Villamizar Lizcano,',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Wilson Andrés Arenales Caceres',
+        nombre: 'Lady Adriana Ariza Luque',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Oleg Litvin',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Victor Raúl Cárdenas Cáceres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andres Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Yuly Andrea Rey Quiñonez ',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Zuleidy Maria Ruiz Torres',
@@ -430,7 +381,7 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'María Eugenia Mejía López',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

@@ -34,7 +34,7 @@
         .cajon.color-custom.p-5.mb-5
           p De acuerdo con la Ley 1562 de 2012 es aquella contraída como resultado de la exposición a factores de riesgo inherentes a la actividad laboral o del medio en el que el trabajador se ha visto obligado a trabajar. El gobierno nacional, determinará, en forma periódica, las enfermedades que se consideran como laborales y en los casos en que una enfermedad no figure en la tabla de enfermedades laborales (Decreto 1444 de 2014), pero se demuestre· la relación de causalidad con los factores de riesgo ocupacionales se reconocerá como enfermedad laboral, conforme lo establecido en las normas legales vigentes (Artículo 4).
 
-    .row.justify-content-center
+    .row.justify-content-center.mb-3 
       .col-lg-10
         .bloque-texto-g.color-custom-2.p-5.p-sm-5.p-md-5.mb-5.d-none.d-lg-block
           .bloque-texto-g__img(data-aos="fade-right")(
@@ -43,6 +43,8 @@
           .bloque-texto-g__texto.p-5.m-right(data-aos="fade-left")
             p.mb-0 Para el caso de los intérpretes y traductores en Lengua de Señas de acuerdo con Feuerstein, Marshall, Shaw & Burrell (como se citó en Villamil, D. Camacho, L. Quintero, D. Guzmán, B.  y Ruiz, C. 2018) en Estados Unidos es una profesión característica que desarrolla enfermedades por trauma acumulativo como Síndrome de Túnel del Carpo, epicondilitis, bursitis, entre otras. En Colombia es difícil caracterizar este tipo de enfermedades como de origen laboral por la falta de estadísticas formales y por ser una ocupación que puede desempeñarse en cualquier sector económico (p.13-14).
 
+        p.mb-3 Algunos riesgos pueden derivar en enfermedad laboral, por lo que resulta importante revisar los citados en Villamil et al. (2018) que hacen alusión a la profesión en interpretación y traducción en lengua de señas siendo estos: 
+    
     .bloque-texto-a.color-custom-3.p-md-0.mb-3.d-block.d-lg-none
       .row.m-4.align-items-center.justify-content-between
         .col-lg-9(data-aos="fade-right")
@@ -71,11 +73,11 @@
                 .col-lg-12
                   p.my-3 De acuerdo con el Centro de Intérpretes de Lengua de Signos Española y Guías Intérpretes de Castilla y León, como se citó en Villamil et al. (2018), exponen que los Intérpretes de Lengua de Señas tienen que hacer movimientos manuales donde separan los codos del centro del cuerpo y mantienen los brazos en el aire por periodos largos de tiempo y adicionalmente varían la velocidad de los movimientos según la producción del lenguaje y la comunicación. Además, según Feuerstein, Marshall, Shaw & Burrell, como se citó en Villamil et al. (2018, p.56) los intérpretes de lengua de señas realizan aproximadamente 270 movimientos/min., en intervalos de 13.600/15 min., lo cual puede producir a largo plazo desórdenes musculoesqueléticos en manos y muñecas.
                 
-          .tarjeta.back-tab.p-4(titulo="El riesgo psicosocialo")
+          .tarjeta.back-tab.p-4(titulo="El riesgo psicosocial")
             
             .row 
               .col-lg-12
-                h3 El riesgo psicosocialo
+                h3 El riesgo psicosocial
               .row.p-3
                 .col-lg-4
                   img(src="@/assets/curso/images/tema3/img_4.png").mb-3
@@ -125,7 +127,7 @@
           .col-10
             figure
               img.my-3(src='@/assets/curso/images/tema3/ico_1.svg' alt='Volver arriba' style="width:100px; display:block; margin:0 auto;")
-              p.text-center Autocuidado realizando pausas activas masajes y ejercicios de estiramiento en los discursos extensos     
+              p.text-center Autocuidado realizando pausas activas masajes y ejercicios de estiramiento en los discursos extensos.     
 
       .tarjeta.sp1.p-3.h-100
         .row.justify-content-center.mb-3

@@ -14,7 +14,7 @@
       .col-lg-12(data-aos="fade-down")
         img(src="@/assets/curso/images/tema1/img_1.png")
 
-    p.mb-5 La palabra vocabulario, viene del latín vocabŭlum, que significa vocabulario o, dicho de otro modo, las palabras o el lecto que conforman una lengua que utiliza una persona o grupos de personas. Así, se puede decir que léxico es un sinónimo de vocabulario, por ser un conjunto de unidades léxicas que conforman la lengua.
+    p.mb-5 La palabra vocabulario, viene del latín <i> vocabŭlum </i>, que significa vocabulario o, dicho de otro modo, las palabras o el lecto que conforman una lengua que utiliza una persona o grupos de personas. Así, se puede decir que léxico es un sinónimo de vocabulario, por ser un conjunto de unidades léxicas que conforman la lengua.
 
 
     .row.justify-content-star.mb-5
@@ -22,7 +22,7 @@
         img(src='@/assets/curso/images/tema1/img_2.png'  alt='', style="width:440px; display:block; margin:auto 0 ;").mb-3
       .col-lg-7(data-aos="fade-left") 
         .cajon.color-custom.p-5.mb-5
-          p.mb-3 El vocabulario puede designar palabras que sean comunes a una región, grupo, actividad o profesión determinada; como vocabulario costeño, de parlache, jurídico o de medicina, respectivamente. Un intérprete de lengua de señas en Colombia bien se puede encontrar con idiomas específicos en su labor.
+          p.mb-3 El vocabulario puede designar palabras que sean comunes a una región, grupo, actividad o profesión determinada; como vocabulario costeño, de parlache, jurídico o de medicina, respectivamente. Un intérprete de lengua de señas en Colombia bien se puede encontrar con idiomas específicos en su labor cotidiana.
 
           p.mb-2  Hay ciertas palabras de uso particular en determinadas disciplinas u oficios que solo dominan los especialistas del área específica; es a esto a lo que se refiere el término: vocabulario técnico. El vocabulario técnico son las palabras clasificadas objetivamente, y en muchas ocasiones son de significado unívocas, es decir que su designación y significación no pueden ser interpretables de otra manera.
 
@@ -69,13 +69,13 @@
             :style="{'background-image': `url(${require('@/assets/curso/images/tema1/1.png')})`}"
           )
           .bloque-texto-g__texto.p-5.m-right(data-aos="fade-left")
-            p.mb-0 En este aspecto, cabe decir, que estas medidas, a pesar de contener componentes tecnológicos, también se hace presente el factor humano, es decir: un celador o guarda de seguridad; por ejemplo, que interactúa en la infraestructura de la empresa como un componente de seguridad y que también toma un valor importante en la misma.
+            p.mb-0 A través de la historia muchos se han visto en la imperiosa necesidad de traducir e interpretar los nombres propios, mientras que en otros momentos se han dejado cautivar por ellos, como ocurre con los teóricos de la traducción. Los antropónimos y los topónimos son una constante en el oficio de la interpretación. En el caso de los nombres propios de reyes, algunos políticos, ciudades y países, el papa o deportistas famosos, suelen, en algunas culturas, transliterarse y en otras interpretarse. 
 
     .bloque-texto-a.color-custom-3.p-md-0.mb-5.d-block.d-lg-none
       .row.m-4.align-items-center.justify-content-between
         .col-lg-9(data-aos="fade-right")
           .bloque-texto-a__texto.p-5.my-5
-            p En este aspecto, cabe decir, que estas medidas, a pesar de contener componentes tecnológicos, también se hace presente el factor humano, es decir: un celador o guarda de seguridad; por ejemplo, que interactúa en la infraestructura de la empresa como un componente de seguridad y que también toma un valor importante en la misma.
+            p A través de la historia muchos se han visto en la imperiosa necesidad de traducir e interpretar los nombres propios, mientras que en otros momentos se han dejado cautivar por ellos, como ocurre con los teóricos de la traducción. Los antropónimos y los topónimos son una constante en el oficio de la interpretación. En el caso de los nombres propios de reyes, algunos políticos, ciudades y países, el papa o deportistas famosos, suelen, en algunas culturas, transliterarse y en otras interpretarse. 
         .col-lg-3.mb-3.mb-lg-0(data-aos="fade-left")
           figure
             img(src='@/assets/curso/images/tema1/1.png' alt='', style="width:400px; display:block; margin:-1rem 0 ;").mb-3
@@ -138,7 +138,7 @@
                 img(src='@/assets/curso/images/tema1/ico_1.svg' alt='AvatarTop')
               .tarjeta.tarjeta--green
                 .p-5
-                  p.p-3 Quienes son los emisores y los receptores de la información
+                  p.p-3 Quienes son los emisores y los receptores de la información.
 
           .col-lg-6
             .tarjeta-avatar-b.mb-5
@@ -146,7 +146,7 @@
                 img(src='@/assets/curso/images/tema1/ico_2.svg' alt='AvatarTop')   
               .tarjeta.tarjeta--green
                 .p-4
-                  p.mb-5 Dónde encontrar la información. (bibliotecas, empresas, centros de documentación, libros, artículos de revistas, literatura, prensa, legislación, entre otros)
+                  p.mb-5 Dónde encontrar la información. (bibliotecas, empresas, centros de documentación, libros, artículos de revistas, literatura, prensa, legislación, entre otros).
 
           .col-lg-6
             .tarjeta-avatar-b.mb-5
@@ -154,14 +154,14 @@
                 img(src='@/assets/curso/images/tema1/ico_3.svg' alt='AvatarTop')
               .tarjeta.tarjeta--green
                 .p-5
-                  p Qué bases de datos y sistemas de recuperación se pueden utilizar y sus posibilidades
+                  p Qué bases de datos y sistemas de recuperación se pueden utilizar y sus posibilidades.
           .col-lg-6
             .tarjeta-avatar-b.mb-5
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/images/tema1/ico_4.svg' alt='AvatarTop')
               .tarjeta.tarjeta--green
                 .p-5
-                  p.p-4 Análisis documental
+                  p.p-4 Análisis documental.
 
     p.mb-5 Todo lo que contenga cualquier tipo de información escrita, oral, gestual o multimedia, son una fuente de información, que pueden dividirse en:
 
@@ -172,7 +172,7 @@
           img(src='@/assets/curso/images/tema1/ico_5.svg' alt='AvatarTop')
           .tarjeta.color-custom
             .p-5
-              h4.text-center.mt-3 Fuentes documentales primarias: 
+              h4.text-center.mt-3 Fuentes documentales primarias
               p.mb-5 Es toda la información original o nueva, es decir, un trabajo intelectual propio, que no ha sido evaluado por nadie, ni interpretado o filtrado.
 
       .col-lg-4.col-auto.mb-3.mb-lg-0(data-aos="zoom-in-left")
@@ -180,7 +180,7 @@
           img(src='@/assets/curso/images/tema1/ico_6.svg' alt='AvatarTop')
           .tarjeta.color-custom
             .p-5
-              h4.text-center.mt-3 Fuentes documentales secundarias:
+              h4.text-center.mt-3 Fuentes documentales secundarias
               p.mb-4 Se basa en la información primaria, donde la extraen, organizan y analizan. Utiliza la documentación primaria como referencia para controlarla y facilitar el acceso a esta. 
     
     Separador 
@@ -214,8 +214,7 @@
       .col-lg-5(data-aos="fade-right")
         img(src='@/assets/curso/images/tema1/img_11.png').mb-3
       .col-lg-7(data-aos="fade-left") 
-        p.mt-5 Como parte de la organización previa en un servicio de interpretación, es necesario contar con los contenidos previos de los ponentes, sean sordos u oyentes, pero también es necesario tener algunos materiales a disposición para una interpretación con contenidos en lengua de señas colombiana y español. Una interpretación exclusivamente oral necesita equipos técnicos como cabinas fijas, cámaras insonoras, ventilación, transmisores con varios canales, micrófonos, receptores, auriculares, unidades de control de audio, amplificadores y técnicos de montaje.
-
+        p.mt-5 Así, se pueden mencionar algunos de los materiales y equipos necesarios al momento de prestar un servicio de interpretación, además del equipo dicho anteriormente, también están los equipos de video, pantallas o monitores, cámaras de video con sus respectivos camarógrafos, fondos de tonalidades neutras, croma (si se requiere), sillas altas para el intérprete (si son necesarias) e iluminación profesional para ciertos eventos. El intérprete debe conocer de antemano todos los materiales, equipos y contenidos, además de realizar una práctica previa a modo de ensayo, para conocer su ubicación y rotación durante el evento.
       
 
 
