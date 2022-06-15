@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85" height="85" viewBox="0 0 85 85">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_34087" data-name="Rectángulo 34087" width="35.218" height="37.029" fill="none" stroke="#12263f" stroke-width="2"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_80637" data-name="Grupo 80637" transform="translate(-285 -4949)">
+    <circle id="Elipse_4758" data-name="Elipse 4758" cx="42.5" cy="42.5" r="42.5" transform="translate(285 4949)" fill="#cce951"/>
+    <g id="Grupo_80581" data-name="Grupo 80581" transform="translate(310 4973)">
+      <g id="Grupo_80580" data-name="Grupo 80580" clip-path="url(#clip-path)">
+        <path id="Trazado_116195" data-name="Trazado 116195" d="M135.257,149.616a3.969,3.969,0,1,1-3.955-3.982A3.969,3.969,0,0,1,135.257,149.616Z" transform="translate(-113.683 -130.035)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Trazado_116196" data-name="Trazado 116196" d="M87.235,256.941A1.236,1.236,0,0,1,86,255.694l.034-4.068a4.337,4.337,0,0,1,3.131-4.331,18,18,0,0,1,5.2-.455,17.993,17.993,0,0,1,5.189.49,4.343,4.343,0,0,1,3.1,4.358l.017,4.03a1.236,1.236,0,0,1-1.238,1.241Z" transform="translate(-76.789 -220.402)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <line id="Línea_109" data-name="Línea 109" x1="0.01" y1="5.741" transform="translate(13.802 30.737)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <line id="Línea_110" data-name="Línea 110" x1="0.037" y2="5.71" transform="translate(21.248 30.767)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Trazado_116197" data-name="Trazado 116197" d="M236.157,162.147a3.419,3.419,0,1,1-3.407-3.43A3.419,3.419,0,0,1,236.157,162.147Z" transform="translate(-204.758 -141.717)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Trazado_116198" data-name="Trazado 116198" d="M35.651,162.147a3.419,3.419,0,1,0,3.407-3.43A3.419,3.419,0,0,0,35.651,162.147Z" transform="translate(-31.832 -141.717)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Trazado_116199" data-name="Trazado 116199" d="M249.714,252.779c.546-.02.864-.024,1.517-.022a10.711,10.711,0,0,1,3.786.424,3.755,3.755,0,0,1,2.684,3.768l.014,2.842a1.326,1.326,0,0,1-1.328,1.331l-5.224-.008" transform="translate(-222.968 -225.685)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <line id="Línea_111" data-name="Línea 111" x1="0.032" y2="4.1" transform="translate(31.425 31.267)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Trazado_116200" data-name="Trazado 116200" d="M11.616,252.779a7.159,7.159,0,0,0-.739-.022,10.711,10.711,0,0,0-3.786.424,3.755,3.755,0,0,0-2.684,3.768l-.014,2.842a1.326,1.326,0,0,0,1.328,1.331l5.224-.008" transform="translate(-3.922 -225.685)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <line id="Línea_112" data-name="Línea 112" x2="0.032" y2="4.1" transform="translate(3.761 31.267)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Trazado_116201" data-name="Trazado 116201" d="M193.983,41.737a10.139,10.139,0,0,0,3.492.593q.352,0,.7-.022l2.712,2.054.887-2.975h0c1.464-.741,2.395-1.853,2.395-3.1,0-2.23-3-4.038-6.69-4.038q-.41,0-.808.029" transform="translate(-173.206 -30.585)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Trazado_116202" data-name="Trazado 116202" d="M39.226,13.689a4.724,4.724,0,0,1-2.668-3.861c0-3,4.031-5.434,9-5.434s9,2.433,9,5.434-4.031,5.434-9,5.434a14.8,14.8,0,0,1-1.844-.114h0l-3.5,2.47Z" transform="translate(-32.642 -3.922)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>
